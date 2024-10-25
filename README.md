@@ -34,3 +34,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Environment Setup
+
+Before running the project, make sure to set up your environment variables:
+
+1. Create a `.env.local` file in the project root.
+2. Add your Firebase configuration to the `.env.local` file.
+3. Set the GOOGLE_APPLICATION_CREDENTIALS environment variable to point to your Google Cloud service account key file.
+4. Set up Google Cloud credentials:
+   - Create a service account and download the JSON key file.
+   - Set the GOOGLE_APPLICATION_CREDENTIALS environment variable to the path of your JSON key file.
+   - Set the GOOGLE_CLOUD_PROJECT_ID environment variable to your Google Cloud project ID.
